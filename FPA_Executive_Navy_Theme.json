@@ -1,0 +1,253 @@
+{
+    "name": "FP&A Executive Navy",
+    "dataColors": [
+        "#1F4E79",
+        "#5B9BD5",
+        "#2E9E6B",
+        "#D64550",
+        "#E8A33D",
+        "#8A94A6",
+        "#12354F",
+        "#A9CCE8"
+    ],
+    "good": "#2E9E6B",
+    "neutral": "#E8A33D",
+    "bad": "#D64550",
+    "background": "#FFFFFF",
+    "foreground": "#22303E",
+    "tableAccent": "#1F4E79",
+    "textClasses": {
+        "callout": {
+            "fontSize": 26,
+            "fontFace": "Segoe UI Semibold",
+            "color": "#1F4E79"
+        },
+        "title": {
+            "fontSize": 12,
+            "fontFace": "Segoe UI Semibold",
+            "color": "#22303E"
+        },
+        "header": {
+            "fontSize": 11,
+            "fontFace": "Segoe UI Semibold",
+            "color": "#22303E"
+        },
+        "label": {
+            "fontSize": 10,
+            "fontFace": "Segoe UI",
+            "color": "#4A5866"
+        }
+    },
+    "visualStyles": {
+        "*": {
+            "*": {
+                "background": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "transparency": 0
+                    }
+                ],
+                "border": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#E3E9EF"
+                            }
+                        },
+                        "radius": 10
+                    }
+                ],
+                "dropShadow": [
+                    {
+                        "show": false
+                    }
+                ],
+                "title": [
+                    {
+                        "show": true,
+                        "fontColor": {
+                            "solid": {
+                                "color": "#22303E"
+                            }
+                        },
+                        "background": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "fontSize": 12,
+                        "fontFamily": "Segoe UI Semibold",
+                        "alignment": "left"
+                    }
+                ]
+            }
+        },
+        "page": {
+            "*": {
+                "background": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#F5F7FA"
+                            }
+                        },
+                        "transparency": 0
+                    }
+                ],
+                "outspace": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#EBEFF4"
+                            }
+                        },
+                        "transparency": 0
+                    }
+                ]
+            }
+        },
+        "card": {
+            "*": {
+                "labels": [
+                    {
+                        "fontSize": 24,
+                        "fontFamily": "Segoe UI Semibold",
+                        "color": {
+                            "solid": {
+                                "color": "#1F4E79"
+                            }
+                        }
+                    }
+                ],
+                "categoryLabels": [
+                    {
+                        "fontSize": 11,
+                        "fontFamily": "Segoe UI",
+                        "color": {
+                            "solid": {
+                                "color": "#4A5866"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "slicer": {
+            "*": {
+                "background": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "transparency": 0
+                    }
+                ],
+                "header": [
+                    {
+                        "show": true,
+                        "fontColor": {
+                            "solid": {
+                                "color": "#22303E"
+                            }
+                        },
+                        "fontSize": 11,
+                        "fontFamily": "Segoe UI Semibold"
+                    }
+                ],
+                "items": [
+                    {
+                        "fontColor": {
+                            "solid": {
+                                "color": "#4A5866"
+                            }
+                        },
+                        "fontSize": 10
+                    }
+                ]
+            }
+        },
+        "tableEx": {
+            "*": {
+                "grid": [
+                    {
+                        "gridVertical": false,
+                        "gridHorizontal": true,
+                        "gridHorizontalColor": {
+                            "solid": {
+                                "color": "#EFF3F7"
+                            }
+                        },
+                        "rowPadding": 4
+                    }
+                ],
+                "columnHeaders": [
+                    {
+                        "fontColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "backColor": {
+                            "solid": {
+                                "color": "#1F4E79"
+                            }
+                        },
+                        "fontSize": 11,
+                        "fontFamily": "Segoe UI Semibold"
+                    }
+                ]
+            }
+        },
+        "pivotTable": {
+            "*": {
+                "grid": [
+                    {
+                        "gridVertical": false,
+                        "gridHorizontal": true,
+                        "gridHorizontalColor": {
+                            "solid": {
+                                "color": "#EFF3F7"
+                            }
+                        },
+                        "rowPadding": 4
+                    }
+                ],
+                "columnHeaders": [
+                    {
+                        "fontColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "backColor": {
+                            "solid": {
+                                "color": "#1F4E79"
+                            }
+                        },
+                        "fontSize": 11,
+                        "fontFamily": "Segoe UI Semibold"
+                    }
+                ],
+                "rowHeaders": [
+                    {
+                        "fontColor": {
+                            "solid": {
+                                "color": "#22303E"
+                            }
+                        },
+                        "fontSize": 10
+                    }
+                ]
+            }
+        }
+    }
+}
